@@ -5,7 +5,8 @@ This repository showcases a secure and scalable AWS Virtual Private Cloud (VPC) 
 
 ---
 
-<img width="1585" height="1123" alt="Screenshot 2026-02-06 133606" src="https://github.com/user-attachments/assets/7421f070-f281-497e-b677-2aeaa1ec59f4" />
+
+<img width="1866" height="1184" alt="Screenshot 2026-02-06 133953" src="https://github.com/user-attachments/assets/9b7f30be-93f7-46e0-a82e-5c8229676a08" />
 
 ---
 ## **Region**
