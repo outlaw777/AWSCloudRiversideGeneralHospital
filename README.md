@@ -115,6 +115,3 @@ This repository showcases a secure and scalable AWS Virtual Private Cloud (VPC) 
 - **Security Hub & GuardDuty:** Continuous threat detection
 
 ---
-
-
-Just tell me the direction you want to take this next.
