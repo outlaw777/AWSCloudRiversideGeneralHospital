@@ -12,7 +12,7 @@ The VPC is engineered to meet the operational, regulatory, and security demands 
 <img width="1866" height="1184" alt="Screenshot 2026-02-06 133953" src="https://github.com/user-attachments/assets/d4cebec3-f30d-4dd1-b63f-ee5e6b0d7568" />
 
 
-# **1. Architecture Summary**
+# ** Architecture Summary**
 
 ## **VPC**
 - **CIDR:** `10.0.0.0/16`  
@@ -55,64 +55,64 @@ This section explains the *business, compliance, and engineering rationale* behi
 
 ## **A. Security Leadership Perspective (CISO / CIO / C‑Suite)**
 
-### **1. Regulatory Alignment**
+### **Regulatory Alignment**
 - Architecture mirrors segmentation patterns used in **HIPAA, HITRUST, and DoD** environments.
 - Ensures PHI remains in private, tightly controlled subnets.
 - Full auditability through CloudTrail, VPC Flow Logs, and IAM least privilege.
 
-### **2. Risk Reduction**
+### **Risk Reduction**
 - No clinical or data systems are internet‑facing.
 - All ingress is funneled through hardened ALBs and WAF.
 - Network Firewall and DNS Firewall enforce zero‑trust egress.
 
-### **3. Operational Resilience**
+### **Operational Resilience**
 - Multi‑AZ design ensures high availability for clinical systems.
 - Redundant NAT Gateways, ALBs, and subnets prevent single points of failure.
 
-### **4. Strategic Value**
+### **Strategic Value**
 - Provides a scalable foundation for EHR modernization, imaging expansion, and API‑driven interoperability.
 
 ---
 
-## **B. Engineering Leadership Perspective (Principal Engineers / Architects)**
+## **Engineering Leadership Perspective (Principal Engineers / Architects)**
 
-### **1. Clean, Tiered Segmentation**
+### **Clean, Tiered Segmentation**
 - Public → App → Data → Imaging → Ops  
 - Each tier has dedicated NACLs, route tables, and security groups.
 
-### **2. Enterprise‑Grade Patterns**
+### **Enterprise‑Grade Patterns**
 - Multi‑AZ load balancing  
 - Private RDS with KMS encryption  
 - S3 VPC endpoint for imaging archives  
 - Network Firewall for IDS/IPS  
 
-### **3. Infrastructure as Code**
+### **Infrastructure as Code**
 - Terraform ensures reproducibility, version control, and rapid iteration.
 
-### **4. Extensibility**
+### **Extensibility**
 - New clinical services or microservices can be added without redesigning the network.
 
 ---
 
-## **C. Manager Perspective (Team Leads / Project Managers)**
+## **Manager Perspective (Team Leads / Project Managers)**
 
-### **1. Predictable, Documented Environment**
+### **Predictable, Documented Environment**
 - Clear diagrams, Terraform modules, and deployment workflows.
 - Easy onboarding for new engineers and auditors.
 
-### **2. Supports Multiple Hospital Use Cases**
+### **Supports Multiple Hospital Use Cases**
 - EHR hosting  
 - Imaging workflows  
 - API integrations  
 - Data analytics  
 - Monitoring and compliance  
 
-### **3. Reduces Vendor Lock‑In**
+### **Reduces Vendor Lock‑In**
 - Built entirely on AWS-native services and open standards.
 
 ---
 
-# **3. Core Services Deployed**
+# **Core Services Deployed**
 
 ## **Application Layer**
 - EHR frontends  
