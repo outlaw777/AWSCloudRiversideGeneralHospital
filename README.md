@@ -12,7 +12,7 @@ The VPC is engineered to meet the operational, regulatory, and security demands 
 <img width="1866" height="1184" alt="Screenshot 2026-02-06 133953" src="https://github.com/user-attachments/assets/d4cebec3-f30d-4dd1-b63f-ee5e6b0d7568" />
 
 
-# ** Architecture Summary**
+# Architecture Summary
 
 ## **VPC**
 - **CIDR:** `10.0.0.0/16`  
@@ -136,19 +136,19 @@ This section explains the *business, compliance, and engineering rationale* behi
 
 ---
 
-# **4. Deployment Workflow (Terraform)**
+# **Deployment Workflow (Terraform)**
 
-## **1. Network Foundation**
+## **Network Foundation**
 - VPC, subnets, route tables  
 - IGW, NAT Gateways  
 - NACLs and security groups  
 
-## **2. Security & Compliance**
+## **Security & Compliance**
 - Network Firewall  
 - Route 53 Resolver endpoints  
 - VPC Flow Logs, CloudTrail, CloudWatch  
 
-## **3. Application & Data Services**
+## **Application & Data Services**
 - ALBs  
 - EC2 workloads  
 - RDS and Redis  
@@ -156,7 +156,7 @@ This section explains the *business, compliance, and engineering rationale* behi
 
 ---
 
-# **5. Benefits to the Organization**
+# **Benefits to the Organization**
 
 ## **Security**
 - Strong segmentation protects PHI  
@@ -175,7 +175,7 @@ This section explains the *business, compliance, and engineering rationale* behi
 
 ---
 
-# **6. Future Enhancements**
+# **Future Enhancements**
 - Multi‑Region DR  
 - Automated compliance reporting  
 - SIEM integration  
@@ -184,7 +184,7 @@ This section explains the *business, compliance, and engineering rationale* behi
 
 ---
 
-# **7. Conclusion**
+# **Conclusion**
 
 The Riverside General Hospital VPC architecture delivers a **secure, compliant, and highly available foundation** for modern healthcare workloads. It reflects industry best practices and positions the organization for long‑term scalability, operational excellence, and regulatory readiness.
 
