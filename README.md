@@ -47,7 +47,7 @@ The VPC is engineered to meet the operational, regulatory, and security demands 
 
 ---
 
-# **2. Why This Architecture Was Chosen**
+# **Why This Architecture Was Chosen**
 
 This section explains the *business, compliance, and engineering rationale* behind the RGH VPC design.
 
