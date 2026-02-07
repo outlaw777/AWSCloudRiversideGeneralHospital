@@ -1,14 +1,16 @@
 
 
-# **Overview Riverside General Hospital VPC Architecture**
+# **AWS Riverside General Hospital VPC Architecture**
 
+## **Overview**
 This repository documents the design and deployment of the **Riverside General Hospital (RGH) Production VPC**, a secure, highly available, and compliance‑aligned cloud network built on AWS. The architecture supports mission‑critical healthcare workloads including **EHR systems, imaging platforms (PACS/DICOM), clinical APIs, and backend data services**, while enforcing strict segmentation, auditability, and zero‑trust access principles.
 
 The VPC is engineered to meet the operational, regulatory, and security demands of a modern healthcare organization. It incorporates **multi‑AZ resiliency**, **tiered subnet isolation**, **defense‑in‑depth controls**, and **AWS-native security services** to ensure confidentiality, integrity, and availability of protected health information (PHI).
 
 ---
 
----
+<img width="1866" height="1184" alt="Screenshot 2026-02-06 133953" src="https://github.com/user-attachments/assets/d4cebec3-f30d-4dd1-b63f-ee5e6b0d7568" />
+
 
 # **1. Architecture Summary**
 
