@@ -51,9 +51,8 @@ The VPC is engineered to meet the operational, regulatory, and security demands 
 
 This section explains the *business, compliance, and engineering rationale* behind the RGH VPC design.
 
----
 
-## **A. Security Leadership Perspective (CISO / CIO / C‑Suite)**
+## **Security Leadership Perspective (CISO / CIO / C‑Suite)**
 
 ### **Regulatory Alignment**
 - Architecture mirrors segmentation patterns used in **HIPAA, HITRUST, and DoD** environments.
