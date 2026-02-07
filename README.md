@@ -190,4 +190,3 @@ The Riverside General Hospital VPC architecture delivers a **secure, compliant, 
 
 ---
 
-Just tell me what direction you want to take next.
